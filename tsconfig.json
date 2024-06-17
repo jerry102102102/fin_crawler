@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                        // 指定 ECMAScript 目标版本
+    "module": "commonjs",                   // 指定模块代码生成
+    "strict": true,                         // 启用所有严格类型检查选项
+    "esModuleInterop": true,                // 启用对 ES 模块标准的互操作性
+    "skipLibCheck": true,                   // 跳过类型声明文件的类型检查
+    "forceConsistentCasingInFileNames": true, // 强制在导入时文件名一致
+    "outDir": "./dist",                     // 指定输出目录
+    "rootDir": "./src"                      // 指定输入文件的根目录
+  },
+  "include": [
+    "src/**/*"                              // 指定包含哪些文件
+  ],
+  "exclude": [
+    "node_modules"                          // 排除 node_modules 目录
+  ]
+}
